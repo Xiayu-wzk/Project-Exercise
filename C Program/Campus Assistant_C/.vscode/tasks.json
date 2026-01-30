@@ -1,0 +1,34 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe 生成活动文件",
+            "command": "D:\\Development Tools\\mingw64\\bin\\gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}\\main.c",
+                "${workspaceFolder}\\study log.c",
+                "${workspaceFolder}\\ledger.c",
+                "${workspaceFolder}\\todo.c",
+                "${workspaceFolder}\\date.c",
+                "-I",
+                "${workspaceFolder}",
+                "-o",
+                "${workspaceFolder}\\Campus Assistant.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "构建 campus_assistant.exe"
+        }
+    ],
+    "version": "2.0.0"
+}
