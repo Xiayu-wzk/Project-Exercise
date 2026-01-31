@@ -1,4 +1,11 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <cstdlib>
+#include <sstream>
+#include <iomanip>
+#include <limits>
+
 using namespace std;
 
 #define MAX 1000
@@ -367,4 +374,5 @@ int main()
     
     system("pause");
     return 0;
+
 }
